@@ -33,10 +33,10 @@ namespace ProductSaleReport
         {
             this.components = new System.ComponentModel.Container();
             DevExpress.XtraReports.UI.XRSummary xrSummary1 = new DevExpress.XtraReports.UI.XRSummary();
-            DevExpress.XtraReports.UI.XRSummary xrSummary3 = new DevExpress.XtraReports.UI.XRSummary();
             DevExpress.XtraReports.UI.XRSummary xrSummary2 = new DevExpress.XtraReports.UI.XRSummary();
-            DevExpress.XtraReports.UI.XRSummary xrSummary5 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary xrSummary3 = new DevExpress.XtraReports.UI.XRSummary();
             DevExpress.XtraReports.UI.XRSummary xrSummary4 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary xrSummary5 = new DevExpress.XtraReports.UI.XRSummary();
             DevExpress.XtraReports.UI.XRWatermark xrWatermark1 = new DevExpress.XtraReports.UI.XRWatermark();
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
@@ -66,36 +66,36 @@ namespace ProductSaleReport
             this.xrLabel9 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel8 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel7 = new DevExpress.XtraReports.UI.XRLabel();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components); // Added ObjectDataSource
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit(); // Initialize ObjectDataSource
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
-            //
+            // 
             // TopMargin
-            //
+            // 
             this.TopMargin.HeightF = 3.333333F;
             this.TopMargin.Name = "TopMargin";
-            //
+            // 
             // BottomMargin
-            //
+            // 
             this.BottomMargin.HeightF = 5.000102F;
             this.BottomMargin.Name = "BottomMargin";
-            //
+            // 
             // Detail
-            //
+            // 
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable2,
             this.xrTable1});
             this.Detail.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
-            this.Detail.HeightF = 125.8333F;
+            this.Detail.HeightF = 66.66662F;
             this.Detail.Name = "Detail";
             this.Detail.StylePriority.UseFont = false;
-            //
+            // 
             // xrTable2
-            //
-            this.xrTable2.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top)
-            | DevExpress.XtraPrinting.BorderSide.Right)
+            // 
+            this.xrTable2.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(0.9972127F, 25F);
             this.xrTable2.Name = "xrTable2";
@@ -104,9 +104,9 @@ namespace ProductSaleReport
             this.xrTableRow2});
             this.xrTable2.SizeF = new System.Drawing.SizeF(598.627F, 25F);
             this.xrTable2.StylePriority.UseBorders = false;
-            //
+            // 
             // xrTableRow2
-            //
+            // 
             this.xrTableRow2.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell8,
             this.xrTableCell9,
@@ -115,29 +115,29 @@ namespace ProductSaleReport
             this.xrTableRow2.StylePriority.UseTextAlignment = false;
             this.xrTableRow2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableRow2.Weight = 1D;
-            //
+            // 
             // xrTableCell8
-            //
+            // 
             this.xrTableCell8.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Quantity]")}); // Corrected to [Quantity]
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Quantity]")});
             this.xrTableCell8.Multiline = true;
             this.xrTableCell8.Name = "xrTableCell8";
             this.xrTableCell8.TextFormatString = "{0:N0}";
             this.xrTableCell8.Weight = 2.9580661221029043D;
-            //
+            // 
             // xrTableCell9
-            //
+            // 
             this.xrTableCell9.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[UnitPrice]")}); // Corrected to [UnitPrice]
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[UnitPrice]")});
             this.xrTableCell9.Multiline = true;
             this.xrTableCell9.Name = "xrTableCell9";
             this.xrTableCell9.TextFormatString = "{0:C}";
             this.xrTableCell9.Weight = 3.721563105417768D;
-            //
+            // 
             // xrTableCell10
-            //
+            // 
             this.xrTableCell10.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Quantity]*[UnitPrice]")}); // Corrected to [Quantity]*[UnitPrice]
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Quantity]*[UnitPrice]")});
             this.xrTableCell10.Multiline = true;
             this.xrTableCell10.Name = "xrTableCell10";
             xrSummary1.IgnoreNullValues = true;
@@ -146,11 +146,11 @@ namespace ProductSaleReport
             this.xrTableCell10.Text = "Total";
             this.xrTableCell10.TextFormatString = "{0:C}";
             this.xrTableCell10.Weight = 2.1815209911619529D;
-            //
+            // 
             // xrTable1
-            //
-            this.xrTable1.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top)
-            | DevExpress.XtraPrinting.BorderSide.Right)
+            // 
+            this.xrTable1.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTable1.LocationFloat = new DevExpress.Utils.PointFloat(0.9972127F, 0F);
             this.xrTable1.Name = "xrTable1";
@@ -159,9 +159,9 @@ namespace ProductSaleReport
             this.xrTableRow1});
             this.xrTable1.SizeF = new System.Drawing.SizeF(598.6271F, 25F);
             this.xrTable1.StylePriority.UseBorders = false;
-            //
+            // 
             // xrTableRow1
-            //
+            // 
             this.xrTableRow1.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell2,
             this.xrTableCell3,
@@ -170,42 +170,42 @@ namespace ProductSaleReport
             this.xrTableRow1.StylePriority.UseTextAlignment = false;
             this.xrTableRow1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableRow1.Weight = 1D;
-            //
+            // 
             // xrTableCell2
-            //
+            // 
             this.xrTableCell2.Multiline = true;
             this.xrTableCell2.Name = "xrTableCell2";
             this.xrTableCell2.Text = "Sale Qty";
             this.xrTableCell2.Weight = 2.9580654906092096D;
-            //
+            // 
             // xrTableCell3
-            //
+            // 
             this.xrTableCell3.Multiline = true;
             this.xrTableCell3.Name = "xrTableCell3";
             this.xrTableCell3.Text = "Unit Price";
             this.xrTableCell3.Weight = 3.721562940295275D;
-            //
+            // 
             // xrTableCell4
-            //
+            // 
             this.xrTableCell4.Multiline = true;
             this.xrTableCell4.Name = "xrTableCell4";
             this.xrTableCell4.Text = "Total";
             this.xrTableCell4.Weight = 2.1815237901908597D;
-            //
+            // 
             // GroupFooter1
-            //
+            // 
             this.GroupFooter1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLabel6,
             this.xrLabel3,
             this.xrLabel4,
             this.xrLabel5});
-            this.GroupFooter1.HeightF = 100.8334F;
+            this.GroupFooter1.HeightF = 71.66677F;
             this.GroupFooter1.Name = "GroupFooter1";
-            //
+            // 
             // xrLabel6
-            //
+            // 
             this.xrLabel6.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumSum([Quantity] * [UnitPrice])")}); // Corrected to [Quantity] * [UnitPrice]
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumSum([Quantity] * [UnitPrice])")});
             this.xrLabel6.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel6.LocationFloat = new DevExpress.Utils.PointFloat(163.1694F, 40.0001F);
             this.xrLabel6.Multiline = true;
@@ -218,9 +218,9 @@ namespace ProductSaleReport
             this.xrLabel6.Summary = xrSummary2;
             this.xrLabel6.Text = "Total Quantity";
             this.xrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            //
+            // 
             // xrLabel3
-            //
+            // 
             this.xrLabel3.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(0F, 3.500112F);
             this.xrLabel3.Multiline = true;
@@ -231,11 +231,11 @@ namespace ProductSaleReport
             this.xrLabel3.StylePriority.UseTextAlignment = false;
             this.xrLabel3.Text = "Total Quantity";
             this.xrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            //
+            // 
             // xrLabel4
-            //
+            // 
             this.xrLabel4.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumSum([Quantity])")}); // Corrected to [Quantity]
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumSum([Quantity])")});
             this.xrLabel4.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(163.1694F, 3.500112F);
             this.xrLabel4.Multiline = true;
@@ -247,9 +247,9 @@ namespace ProductSaleReport
             xrSummary3.Running = DevExpress.XtraReports.UI.SummaryRunning.Report;
             this.xrLabel4.Summary = xrSummary3;
             this.xrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            //
+            // 
             // xrLabel5
-            //
+            // 
             this.xrLabel5.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(0F, 40.0001F);
             this.xrLabel5.Multiline = true;
@@ -260,27 +260,28 @@ namespace ProductSaleReport
             this.xrLabel5.StylePriority.UseTextAlignment = false;
             this.xrLabel5.Text = "Total Revenue";
             this.xrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            //
+            // 
             // GroupHeader1
-            //
+            // 
             this.GroupHeader1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.GroupHeader1.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top)
-            | DevExpress.XtraPrinting.BorderSide.Right)
+            this.GroupHeader1.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.GroupHeader1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLabel2,
             this.xrLabelProductCode,
             this.xrLabel1});
             this.GroupHeader1.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
-            new DevExpress.XtraReports.UI.GroupField("ProductCode", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)}); // Corrected to ProductCode (PascalCase)
+            new DevExpress.XtraReports.UI.GroupField("ProductCode", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
+            this.GroupHeader1.HeightF = 99.16666F;
             this.GroupHeader1.Name = "GroupHeader1";
             this.GroupHeader1.StylePriority.UseBackColor = false;
             this.GroupHeader1.StylePriority.UseBorders = false;
-            //
+            // 
             // xrLabel2
-            //
+            // 
             this.xrLabel2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ProductName]")}); // Corrected to [ProductName]
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ProductName]")});
             this.xrLabel2.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(200.8333F, 46.66667F);
             this.xrLabel2.Multiline = true;
@@ -288,14 +289,14 @@ namespace ProductSaleReport
             this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel2.SizeF = new System.Drawing.SizeF(186.9999F, 16.66667F);
             this.xrLabel2.StylePriority.UseFont = false;
-            //
+            // 
             // xrLabelProductCode
-            //
-            this.xrLabelProductCode.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top)
-            | DevExpress.XtraPrinting.BorderSide.Right)
+            // 
+            this.xrLabelProductCode.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabelProductCode.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ProductCode]")}); // Corrected to [ProductCode]
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ProductCode]")});
             this.xrLabelProductCode.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabelProductCode.LocationFloat = new DevExpress.Utils.PointFloat(0F, 46.66667F);
             this.xrLabelProductCode.Multiline = true;
@@ -304,9 +305,9 @@ namespace ProductSaleReport
             this.xrLabelProductCode.SizeF = new System.Drawing.SizeF(186.9999F, 16.66667F);
             this.xrLabelProductCode.StylePriority.UseBorders = false;
             this.xrLabelProductCode.StylePriority.UseFont = false;
-            //
+            // 
             // xrLabel1
-            //
+            // 
             this.xrLabel1.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrLabel1.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(0.0001271566F, 0F);
@@ -317,24 +318,24 @@ namespace ProductSaleReport
             this.xrLabel1.StylePriority.UseBorders = false;
             this.xrLabel1.StylePriority.UseFont = false;
             this.xrLabel1.Text = "PRODUCTSALE REPORT";
-            //
+            // 
             // ReportFooter
-            //
+            // 
             this.ReportFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLabel11,
             this.xrLabel10,
             this.xrLabel9,
             this.xrLabel8,
             this.xrLabel7});
-            this.ReportFooter.HeightF = 149.1667F;
+            this.ReportFooter.HeightF = 105F;
             this.ReportFooter.Name = "ReportFooter";
-            //
+            // 
             // xrLabel11
-            //
+            // 
             this.xrLabel11.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumSum([Quantity] * [UnitPrice])")}); // Corrected to [Quantity] * [UnitPrice]
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumSum([Quantity] * [UnitPrice])")});
             this.xrLabel11.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold);
-            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(163.1694F, 101.6667F);
+            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(163.1694F, 80.83338F);
             this.xrLabel11.Multiline = true;
             this.xrLabel11.Name = "xrLabel11";
             this.xrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -345,11 +346,11 @@ namespace ProductSaleReport
             this.xrLabel11.Summary = xrSummary4;
             this.xrLabel11.Text = "Total Quantity";
             this.xrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            //
+            // 
             // xrLabel10
-            //
+            // 
             this.xrLabel10.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold);
-            this.xrLabel10.LocationFloat = new DevExpress.Utils.PointFloat(0F, 101.6667F);
+            this.xrLabel10.LocationFloat = new DevExpress.Utils.PointFloat(0F, 80.83338F);
             this.xrLabel10.Multiline = true;
             this.xrLabel10.Name = "xrLabel10";
             this.xrLabel10.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -358,13 +359,13 @@ namespace ProductSaleReport
             this.xrLabel10.StylePriority.UseTextAlignment = false;
             this.xrLabel10.Text = "Sum Revenue";
             this.xrLabel10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            //
+            // 
             // xrLabel9
-            //
+            // 
             this.xrLabel9.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumSum([Quantity])")}); // Corrected to [Quantity]
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumSum([Quantity])")});
             this.xrLabel9.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold);
-            this.xrLabel9.LocationFloat = new DevExpress.Utils.PointFloat(163.1694F, 57.5F);
+            this.xrLabel9.LocationFloat = new DevExpress.Utils.PointFloat(163.1694F, 36.66667F);
             this.xrLabel9.Multiline = true;
             this.xrLabel9.Name = "xrLabel9";
             this.xrLabel9.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -375,11 +376,11 @@ namespace ProductSaleReport
             this.xrLabel9.Summary = xrSummary5;
             this.xrLabel9.Text = "Total Quantity";
             this.xrLabel9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            //
+            // 
             // xrLabel8
-            //
+            // 
             this.xrLabel8.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold);
-            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(0F, 57.5F);
+            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(0F, 36.66667F);
             this.xrLabel8.Multiline = true;
             this.xrLabel8.Name = "xrLabel8";
             this.xrLabel8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -388,9 +389,9 @@ namespace ProductSaleReport
             this.xrLabel8.StylePriority.UseTextAlignment = false;
             this.xrLabel8.Text = "Sum Quantity";
             this.xrLabel8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            //
+            // 
             // xrLabel7
-            //
+            // 
             this.xrLabel7.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(0.0001017253F, 0F);
             this.xrLabel7.Multiline = true;
@@ -401,14 +402,14 @@ namespace ProductSaleReport
             this.xrLabel7.StylePriority.UseTextAlignment = false;
             this.xrLabel7.Text = "Grand Total";
             this.xrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            //
+            // 
             // objectDataSource1
-            //
-            this.objectDataSource1.DataSource = typeof(ProductSaleReport.SaleDto); // Set DataSource to SaleDto type
+            // 
+            this.objectDataSource1.DataSource = typeof(ProductSaleReport.SaleDto);
             this.objectDataSource1.Name = "objectDataSource1";
-            //
+            // 
             // ProductSalesReport1
-            //
+            // 
             this.BackColor = System.Drawing.Color.Empty;
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.TopMargin,
@@ -418,8 +419,8 @@ namespace ProductSaleReport
             this.GroupFooter1,
             this.ReportFooter});
             this.ComponentStorage.AddRange(new System.ComponentModel.IComponent[] {
-            this.objectDataSource1}); // Use ObjectDataSource
-            this.DataSource = this.objectDataSource1; // Set DataSource to ObjectDataSource
+            this.objectDataSource1});
+            this.DataSource = this.objectDataSource1;
             this.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F);
             this.Margins = new DevExpress.Drawing.DXMargins(100F, 150F, 3.333333F, 5.000102F);
             this.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
